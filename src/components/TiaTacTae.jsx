@@ -83,10 +83,10 @@ export default function TiaTacTae() {
        },[tiles])
 
   return (
-    <div className='flex flex-col justify-center items-center bg-purple-400    w-full  h-screen ' >
+    <div className='flex flex-col justify-center items-center bg-purple-400 w-full  h-screen ' >
        {gameState === GameState.notStarted ?(
-             <div className="bg-slate-300 shadow-md rounded-lg w-full max-w-72 p-2   md:w-full  md:max-w-80 ">
-             <h1 className='font-semibold text-xl'>  </h1>
+             <div className="bg-slate-300 shadow-md rounded-lg w-full max-w-52 p-2   md:w-full  md:max-w-64 ">
+             <h1 className='font-semibold text-xl text-center'> Get Start the Game  </h1>
              <div className=" flex justify-center mt-3 ">
                 <button onClick={handleGameStart} className='text-xl rounded-lg bg-blue-500 p-2 w-20 hover:translate-x-6'>Start</button>
              </div>
